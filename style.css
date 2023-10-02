@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Coffee Healing';
+    src: url("../fonts/CoffeeHealing-1GrKe.ttf");
+}
+@font-face {
+    font-family: 'Banana';
+    src: url("../fonts/BananasItalicPersonalUseRegular-WyBxO.ttf");
+}
+@font-face {
+    font-family: 'Happy Lucky';
+    src: url("../fonts/HappyLucky-gxnZP.ttf");
+}
+@font-face {
+    font-family: 'Kingsman';
+    src: url("../fonts/KingsmanDemo-1GVgg.ttf");
+}
+@font-face {
+    font-family: 'NightPump';
+    src: url("../fonts/NightPumpkind-1GpGv.ttf");
+}
+@font-face {
+    font-family: 'Queen';
+    src: url("../fonts/Queensides-3z7Ey.ttf");
+}
+@font-face {
+    font-family: 'Sunny';
+    src: url("../fonts/SunnyspellsRegular-MV9ze.otf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../image/image.jpg);
+    object-fit: cover;
+    background-position: 20% 50%;
+}
+
+h1{
+    font-family: 'Kingsman',sans-serif;
+    color: #e4e4e4;
+    font-size: 500%;
+    filter: drop-shadow(0 0 0.25rem #0e0e0e);
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.image-txt{
+    display: grid;
+    grid-template-columns : repeat(2, 50%);
+}
+
+img{
+    width: 60%;
+    height: auto;
+    border-radius: 5%;
+    filter: drop-shadow(0 0 0.35rem #0e0e0e);
+}
+
+img:hover{
+    height: auto;
+    width: 70%;
+    transition: ease-in-out 1s;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    font-family: 'Sunny', sans-serif;
+    font-size: 500%;
+    color: #e4e4e4;
+    filter: drop-shadow(0 0 0.25rem #0e0e0e);
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Queen', sans-serif;
+    font-weight: 600;
+    font-size: 150%;
+    color: #e4e4e4;
+    filter: drop-shadow(0 0 0.25rem #0e0e0e);
+}
+
+.lyrics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    font-family: 'Queen', sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    color: #e4e4e4;
+    filter: drop-shadow(0 0 0.15rem #e4e4e4);
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Queen', sans-serif;
+    color: #e4e4e4;
+    font-size: 170%;
+    font-weight: 600;
+    filter: drop-shadow(0 0 0.15rem #0e0e0e);
+    margin-bottom: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: #e4e4e4;
+}
+a:visited{
+    color: #e4e4e4;
+}
+a:hover{
+    font-size: 190%;
+    transition: ease-out 1s;
+}
